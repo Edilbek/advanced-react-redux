@@ -1,4 +1,4 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 
 const uiSlice = createSlice({
   name: 'ui',
@@ -13,8 +13,8 @@ const uiSlice = createSlice({
         title: action.payload.title,
         message: action.payload.message,
       };
-    }
-  }
+    },
+  },
 });
 
 export const uiActions = uiSlice.actions;
